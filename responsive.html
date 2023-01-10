@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 2px solid burlywood;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .food img{
+            width: 75%;
+        }
+        /* smaller device */
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        /* medium device */
+        @media screen and (min-width:577px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--.container>.food*12>img[src="images/food.jpg"]+h2{item-$}+h4{price: $00}+p>lorem30^button{Order Now}-->
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-1</h2>
+            <h4>price: 100</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sunt ducimus, culpa odio totam quam consequuntur. Corporis nihil optio culpa inventore. Eaque tempore earum atque distinctio consequatur amet porro.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-2</h2>
+            <h4>price: 200</h4>
+            <p>Voluptatibus delectus ex minima dolorum tenetur expedita nesciunt iste laboriosam in quo, laudantium earum eos recusandae excepturi repellendus, accusamus ab animi quibusdam, molestiae atque odio! Doloribus, eligendi provident. Similique, error!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-3</h2>
+            <h4>price: 300</h4>
+            <p>Ipsum, quod at, placeat minima repudiandae incidunt corporis itaque eveniet eius ipsam eum ab quam ullam dicta vel aperiam neque. Pariatur aliquam omnis itaque praesentium eius nulla architecto expedita aperiam?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-4</h2>
+            <h4>price: 400</h4>
+            <p>Vitae nesciunt accusantium blanditiis amet? Nam, vero cupiditate nesciunt facilis quisquam praesentium nulla. Magnam nemo deleniti tenetur, eveniet adipisci aut sequi repudiandae est maxime vitae suscipit! Cupiditate voluptas a nesciunt.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-5</h2>
+            <h4>price: 500</h4>
+            <p>Neque ratione earum quam recusandae atque. Iste explicabo eaque libero sint optio, totam ipsam, asperiores quis blanditiis consequuntur autem inventore vitae dignissimos magni? Obcaecati similique fugiat blanditiis, beatae qui facilis.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-6</h2>
+            <h4>price: 600</h4>
+            <p>Dolorem iste harum repudiandae consectetur, magni debitis molestiae libero quia ea dolore mollitia nobis minus! Architecto unde aut temporibus eaque ullam, magni sit. Eum suscipit, dolorem autem temporibus quasi magni!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-7</h2>
+            <h4>price: 700</h4>
+            <p>Rem repellendus recusandae reprehenderit nam, esse dolore distinctio, exercitationem iusto expedita laboriosam facere minima ut unde quaerat qui! Similique ipsa laudantium ad? Quas, odio dicta laudantium maiores hic delectus repellat.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-8</h2>
+            <h4>price: 800</h4>
+            <p>Harum blanditiis culpa, porro, veritatis impedit aliquid optio, suscipit eveniet accusamus modi sunt repellendus. Vitae aspernatur, quas, ratione est omnis ipsam quam quo vero magni facere consequuntur nemo expedita non.</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-9</h2>
+            <h4>price: 900</h4>
+            <p>Id maxime repellat velit assumenda amet iusto dolor ad explicabo ducimus autem numquam cum delectus quaerat illo, odio eligendi facere ut dicta! Tempore culpa eos esse neque asperiores veritatis dolores?</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-10</h2>
+            <h4>price: 1000</h4>
+            <p>Blanditiis vitae excepturi quis reiciendis, labore eligendi, iure facere tenetur corrupti ex omnis consectetur debitis. Molestiae, quae obcaecati? Sapiente ipsa nostrum inventore exercitationem reiciendis optio possimus fuga iusto ex. Eligendi!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-11</h2>
+            <h4>price: 1100</h4>
+            <p>Veniam, praesentium! Consequatur asperiores magnam vitae repellat illum modi quae dicta dolores, itaque accusamus nesciunt ipsam blanditiis rem tenetur maiores quisquam harum cumque! Deserunt autem repellendus, magni aperiam minus facere!</p>
+            <button>Order Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h2>item-12</h2>
+            <h4>price: 1200</h4>
+            <p>Nostrum repellat non dolor, consequatur deleniti rerum, minima, reiciendis dicta nemo tenetur corrupti asperiores ad? Natus voluptatibus aliquam sunt, ducimus perferendis, obcaecati optio aspernatur excepturi similique vitae, cupiditate nobis explicabo.</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+</body>
+</html>
